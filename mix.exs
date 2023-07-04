@@ -40,7 +40,7 @@ defmodule Iconify.MixProject do
       {:phoenix_live_view, "~> 0.18.18 or ~> 0.19"},
       {:surface, "~> 0.11.0", optional: true},
       {:recase, "~> 0.5"},
-      {:floki, ">= 0.30.0", only: :test}
+      {:floki, ">= 0.30.0", only: [:dev, :test]}
     ]
   end
 
